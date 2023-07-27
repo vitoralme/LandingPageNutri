@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Montserrat",Sans-serif;
+
+}
+
+.sect1{
+        background-color: rgb(205, 199, 199);
+    background-image: url(./img/background.webp);
+    background-position:250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.img1{
+    width: 70%;
+}
+
+h2{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: rgb(182, 31, 46);
+}
+
+p{
+    font-size: 1.4rem;
+    color: rgb(182, 31, 46);
+}
+.container{
+    margin-left: 2%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 1.6rem;
+}
+
+.container img{
+    margin-top: 10%;
+
+}
+
+.data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 15px 5px;
+    gap: 2rem;
+    border: 2px solid rgb(182, 31, 46);
+    border-radius: 1%;
+    width: 90%;
+    
+}
+
+.data h5{
+    font-size: 1rem;
+    color: black;
+}
+
+a{
+    background-image: linear-gradient(90deg, rgb(3, 200, 15) 0%, rgb(0, 164, 10) 100%);
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 80%;
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 2%;
+}
+
+.sect2{
+    display: flex;
+    gap: 4%;
+    background-color: white;
+}
+
+.img2{
+    width: 80%;
+}
+
+.container_img{
+    margin-left: 10%;
+    width: 40%;
+}
+
+h3{
+    font-size: 2.8rem;
+    color: rgb(182, 31, 46);
+    font-weight: 600;
+}
+
+.container2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 4%;
+}
+
+ul{
+    list-style-type:none;
+    font-size: 1.2rem;
+    line-height: 28px;
+    padding: 0;
+    margin-top: 4%;
+}
+li{
+    margin-top: 4%;
+}
+
+.sect3{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.div_sect3{
+    text-align: center;
+    font-size: 2.6rem;
+    width: 64%;
+    margin-bottom: 4%;
+}
+
+.desc p{
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.sect3 a{
+    width: 40%;
+    margin-top: 4%;
+}
+
+.sect4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4%;
+
+}
+.div_sect4{
+    width: 80%;
+}
+
+.div_sect4 h3{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.depoimento{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 72%;
+}
+
+.depoimento img{
+    height: 350px;
+    margin: 2% ;
+
+}
+
+.sect4 a{
+    width: 40%;
+    margin-top: 4%;
+}
+
+.sect5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.div_sect5{
+    font-size: 1.2rem;
+    margin-bottom: 4%;
+}
+
+.valor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(182, 31, 46) ;
+    border-radius: 5px;
+    width: 45%;
+    padding: 40px;
+    margin-top: 6%;
+}
+
+.valor h3{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 4%;
+}
+
+.valor h6{
+    font-size: 3rem;
+    color:black;
+}
+
+.valor p {
+    font-size: 1.4rem;
+    color:black ;
+}
+
+.valor a{
+    font-size: 1.4rem;
+    padding: 10px 30px 10px 30px;
+    background-image: linear-gradient(90deg, rgb(0, 222, 86) 0%, rgb(0, 164, 65) 100%);
+}
+
+.sect6{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.div_sect6{
+    margin-bottom: 4%;
+}
+
+.perguntas{
+    width: 70%;
+    height: 130px;
+    box-shadow: 1px 1px 10px ;
+    margin-bottom: 2%;
+    padding: 10px 4px 40px 30px;
+ 
+}
+
+.perguntas p{
+    font-size: 1rem;
+    color: black;
+}
+
+.perguntas h5{
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 2%;
+}
+
+@media (max-width: 792px) {
+    .sect1{
+        background-image:none;
+    }
+
+    .container{
+        width: 100%;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        margin-right: 4%;
+    }
+    .container h2{
+        font-size: 2rem;
+    }
+    .container p {
+        font-size: 1.2rem;
+    }
+    .data{
+        width: 98%;
+    }
+    .data h5{
+        font-size: 1.2rem;
+    }
+
+    a{
+        width: 98%;
+    }
+
+    .container_img{
+        display: none;
+    }
+    .container2{
+        width: 100%;
+        margin: 4%;
+    }
+
+    .container2 h3{
+        font-size: 2rem;
+    }
+
+    .sect3{
+        margin: 4%;
+    }
+    .div_sect3{
+        width: 100%;
+    }
+
+    .div_sect3 h3{
+        font-size: 1.7rem;
+
+    }
+
+    .sect3 a{
+        width: 98%;
+    }
+
+    .div_sect4{
+        width: 98%;
+    }
+    .div_sect4 h3{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .depoimento{
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+    .depoimento img{
+        max-width: 98%;
+        align-items: center;
+    }
+
+    .sect4 a{
+        width: 98%;
+    }
+
+    .div_sect5 {
+        width: 98%;
+    }
+    .div_sect5 h3{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .desc{
+        margin-left: 4%;
+    }
+
+    .valor{
+        width: 98%;
+    }
+    .valor h3{
+        font-size: 1.6rem;
+    }
+
+    .valor img{
+        max-width: 100%;
+    }
+
+    .perguntas{
+        width: 96%;
+        height: 20%;
+        margin-bottom: 6%;
+    }
+
+    .div_sect6 h3{
+        font-size: 2.1rem;
+    }
+}
